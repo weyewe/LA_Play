@@ -37,8 +37,8 @@ implements OnClickListener, TextWatcher{
         
         updateButton.setOnClickListener(this);
         
-        twitter = new Twitter("student", "password");
-        twitter.setAPIRootUrl("http://yamba.marakana.com/api");
+        twitter = new Twitter("learningandroid", "pass2010");
+        twitter.setAPIRootUrl("http://learningandroid.status.net/api");
         
         textCount = (TextView)findViewById(R.id.textCount);
         textCount.setText( Integer.toString(140));
